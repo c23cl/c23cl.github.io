@@ -19,20 +19,4 @@ h2 {
 	display: inline;
 }
 
-img.align-center {
-	display: block;
-margin: 0px auto;
-}
 
-table {
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-
-td, th {
-	border: 1px solid black;
-}
-
-div.width {
-	width: 30em;
-}
