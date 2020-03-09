@@ -13,18 +13,32 @@
 <br />
 		<h1>This is My Puppy Project</h1>
 		<button id="button">click me!</button>
-		<br />
+	<div id="boxes">
+		<ul>
+			<li id="boxa">Box 1</li>
+			<li id="boxb">Box 2</li>
+			<li id="boxc">Box 3</li>
+		</ul>
+	</div>
 <script type="text/javascript">
 	function makeImg (){
 	var img = document.createElement('div');
 	document.body.appendChild(img);
 	img.style.width = "400px";
-	img.style.height = "400px";
+	img.style.height = "200px";
 	img.style.backgroundImage = "url(https://cdn.mos.cms.futurecdn.net/BwL2586BtvBPywasXXtzwA-320-80.jpeg)";
 	img.style.backgroundRepeat = "no-repeat";
 }
 	var button = document.getElementById("button");
 	button.addEventListener("click", makeImg);
+
+	function pickNumber (){
+	var number = document.createElement('div');
+	document.body.appendChild(number)
+	}
+
+	var button = document.getElementById("button");
+	button.addEventListener("click", pickNumber)
 </script>
 	</body>
 </html>
