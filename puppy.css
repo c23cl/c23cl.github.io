@@ -1,0 +1,25 @@
+ html {
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+	color: DeepSkyBlue;
+}
+	
+#menu li {
+	list-style-type: none;
+	width: 7em;
+	float: left;
+	text-align: center;
+	display: inline;
+}
+
+img.align-center {
+	display: block;
+margin: 0px auto;
+}
+
+div.width {
+	width: 30em;
+}
