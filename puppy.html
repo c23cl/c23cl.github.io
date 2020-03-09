@@ -12,8 +12,19 @@
 		</div>
 <br />
 		<h1>This is My Puppy Project</h1>
-		<button>click me!</button>
+		<button id="button">click me!</button>
 		<br />
-		<img src="https://cdn.mos.cms.futurecdn.net/BwL2586BtvBPywasXXtzwA-320-80.jpeg">
+<script type="text/javascript">
+	function makeImg (){
+	var img = document.createElement('div');
+	document.body.appendChild(img);
+	img.style.width = "400px";
+	img.style.height = "400px";
+	img.style.backgroundImage = "url(https://cdn.mos.cms.futurecdn.net/BwL2586BtvBPywasXXtzwA-320-80.jpeg)";
+	img.style.backgroundRepeat = "no-repeat";
+}
+	var button = document.getElementById("button");
+	button.addEventListener("click", makeImg);
+</script>
 	</body>
 </html>
