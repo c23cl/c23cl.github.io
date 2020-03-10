@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit A Funny Meme!</title>
+</head>
+<body>
+	<form action="submissions.html" method="get">
+	<fieldset>
+		<legend>
+			Your Info:
+		</legend>
+		<label>
+			Name: <input type="text" name="name" size="40" maxlength="100" />
+		</label>
+		<br>
+		<label>
+			Email: <input type="email" name="email" size="40" maxlength="100">
+		</label>
+		<br>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>
+			Meme Information
+		</legend>
+		<label>
+			Link to meme:
+		</label>
+		<br>
+		<textarea rows="4" cols="40" id="comments"></textarea>
+		<input type="submit" name="submit" value="submit">
+	</fieldset>
+	</form>
+</body>
+</html>

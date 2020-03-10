@@ -29,16 +29,13 @@
 	img.style.backgroundImage = "url(https://cdn.mos.cms.futurecdn.net/BwL2586BtvBPywasXXtzwA-320-80.jpeg)";
 	img.style.backgroundRepeat = "no-repeat";
 }
-	var button = document.getElementById("button");
-	button.addEventListener("click", makeImg);
-
 	function pickNumber (){
 	var number = document.createElement('div');
-	document.body.appendChild(number)
-	}
-
+	document.body.appendChild(number);
+}
 	var button = document.getElementById("button");
-	button.addEventListener("click", pickNumber)
+	button.addEventListener("click", makeImg);
+	button.addEventListener("click", pickNumber);
 </script>
 	</body>
 </html>
